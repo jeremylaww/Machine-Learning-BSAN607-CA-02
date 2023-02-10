@@ -13,9 +13,12 @@ Finally the training is done through model.fit(featuers_matrix, labels), the mod
 NOTE!!!!
 This file was based off a template given from my professor. He made this template using a mac which makes the file pathing different a little different from a windows machine. As such, if you are using a mac, the "filepathTokens" must have only ONE "\" instead of two. Furthermore, the initial path to get to your documents are different as well. (take a look at examples at bottom)
 
-Ex:  OS: filepathTokens = fil.split('/') vs. Windows: filepathTokens = fil.split('\\')
-     OS: TRAIN_DIR = 'C:/Users/13235/Desktop/Machine Learning/train-mails'
+Ex:  
+
+     OS: filepathTokens = fil.split('/') 
+         TRAIN_DIR = 'C:/Users/13235/Desktop/Machine Learning/train-mails'
          TEST_DIR = 'C:/Users/13235/Desktop/Machine Learning/test-mails'
          
-     Windows: TRAIN_DIR = 'Data/train-mails'
+     Windows: filepathTokens = fil.split('\\')
+              TRAIN_DIR = 'Data/train-mails'
               TEST_DIR = 'Data/test-mails'
